@@ -70,7 +70,7 @@ def ask(question: str):
 
 
 @app.get("/")
-def root():
+def home():
     return {"message": "Monday BI Agent Running"}
 
 
